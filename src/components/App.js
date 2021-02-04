@@ -1,5 +1,12 @@
 import React from "react";
+import Header from "./Header";
+import Content from "./Content";
 
 export default function App() {
-  return <div>App</div>;
+  return (
+    <div className="container">
+      <Header />
+      <Content />
+    </div>
+  );
 }

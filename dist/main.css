@@ -1,1 +1,1 @@
-*{font-family:Verdana,Geneva,Tahoma,sans-serif}body{background:#add8e6}
+*{font-family:Verdana,Geneva,Tahoma,sans-serif}body{margin:0;padding:0;width:100%}.container{display:flex;flex-direction:column;justify-content:center}.header{background:#2a2af3;color:rgba(255,255,255,.897);padding:4em}.content{background:rgba(255,255,255,.897);padding:4em}
