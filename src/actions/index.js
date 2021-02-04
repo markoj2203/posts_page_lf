@@ -1,6 +1,6 @@
-/*export const getAuthToken = (token) => {
+export const getPostId = (id) => {
   return {
-    type: "GET_AUTH_TOKEN",
-    payload: token,
+    type: "POST_ID",
+    payload: id,
   };
-};*/
+};

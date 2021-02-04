@@ -3,6 +3,11 @@ $secondary_color: rgba(255, 255, 255, 0.897);
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -26,4 +31,13 @@ body {
 .content {
   background: $secondary_color;
   padding: 4em;
+}
+
+.center {
+  @include flex-center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
