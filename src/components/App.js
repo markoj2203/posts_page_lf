@@ -4,7 +4,7 @@ import Content from "./Content";
 
 export default function App() {
   return (
-    <div className="container">
+    <div className="main_container">
       <Header />
       <Content />
     </div>

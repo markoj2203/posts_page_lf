@@ -1,6 +1,8 @@
 $primary_color: rgb(42, 42, 243);
 $secondary_color: rgba(255, 255, 255, 0.897);
 
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -11,7 +13,7 @@ body {
   width: 100%;
 }
 
-.container {
+.main_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
